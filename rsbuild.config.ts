@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [pluginVue2()],
   tools: {
     rspack: {
-      ignoreWarnings: [/parser_helper_x.js/],
+      ignoreWarnings: [/parser_helper_x\.js/],
       // ignoreWarnings: [(warning) => false],
     },
   },
